@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\GitHub\Solar-System-VTK\Solar-System-VTK\Solar-System-VTK\Source.cpp(444,11): warning C4101: 'Result' : variable locale non référencée
+  Solar-System-VTK.vcxproj -> D:\GitHub\Solar-System-VTK\Solar-System-VTK\Debug\Solar-System-VTK.exe

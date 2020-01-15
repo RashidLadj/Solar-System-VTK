@@ -1,0 +1,129 @@
+Here are the libraries that you have to declare in step 3
+ou must just change the directory (depending on yours):
+
+kernel32.lib
+user32.lib
+gdi32.lib
+winspool.lib
+comdlg32.lib
+advapi32.lib
+shell32.lib
+ole32.lib
+oleaut32.lib
+uuid.lib
+odbc32.lib
+odbccp32.lib
+Path Of (VTK\lib)\vtkalglib-8.0.lib
+Path Of (VTK\lib)\vtkChartsCore-8.0.lib
+Path Of (VTK\lib)\vtkCommonColor-8.0.lib
+Path Of (VTK\lib)\vtkCommonComputationalGeometry-8.0.lib
+Path Of (VTK\lib)\vtkCommonCore-8.0.lib
+Path Of (VTK\lib)\vtkCommonDataModel-8.0.lib
+Path Of (VTK\lib)\vtkCommonExecutionModel-8.0.lib
+Path Of (VTK\lib)\vtkCommonMath-8.0.lib
+Path Of (VTK\lib)\vtkCommonMisc-8.0.lib
+Path Of (VTK\lib)\vtkCommonSystem-8.0.lib
+Path Of (VTK\lib)\vtkCommonTransforms-8.0.lib
+Path Of (VTK\lib)\vtkDICOMParser-8.0.lib
+Path Of (VTK\lib)\vtkDomainsChemistry-8.0.lib
+Path Of (VTK\lib)\vtkDomainsChemistryOpenGL2-8.0.lib
+Path Of (VTK\lib)\vtkexoIIc-8.0.lib
+Path Of (VTK\lib)\vtkexpat-8.0.lib
+Path Of (VTK\lib)\vtkFiltersAMR-8.0.lib
+Path Of (VTK\lib)\vtkFiltersCore-8.0.lib
+Path Of (VTK\lib)\vtkFiltersExtraction-8.0.lib
+Path Of (VTK\lib)\vtkFiltersFlowPaths-8.0.lib
+Path Of (VTK\lib)\vtkFiltersGeneral-8.0.lib
+Path Of (VTK\lib)\vtkFiltersGeneric-8.0.lib
+Path Of (VTK\lib)\vtkFiltersGeometry-8.0.lib
+Path Of (VTK\lib)\vtkFiltersHybrid-8.0.lib
+Path Of (VTK\lib)\vtkFiltersHyperTree-8.0.lib
+Path Of (VTK\lib)\vtkFiltersImaging-8.0.lib
+Path Of (VTK\lib)\vtkFiltersModeling-8.0.lib
+Path Of (VTK\lib)\vtkFiltersParallel-8.0.lib
+Path Of (VTK\lib)\vtkFiltersParallelImaging-8.0.lib
+Path Of (VTK\lib)\vtkFiltersPoints-8.0.lib
+Path Of (VTK\lib)\vtkFiltersProgrammable-8.0.lib
+Path Of (VTK\lib)\vtkFiltersSelection-8.0.lib
+Path Of (VTK\lib)\vtkFiltersSMP-8.0.lib
+Path Of (VTK\lib)\vtkFiltersSources-8.0.lib
+Path Of (VTK\lib)\vtkFiltersStatistics-8.0.lib
+Path Of (VTK\lib)\vtkFiltersTexture-8.0.lib
+Path Of (VTK\lib)\vtkFiltersTopology-8.0.lib
+Path Of (VTK\lib)\vtkFiltersVerdict-8.0.lib
+Path Of (VTK\lib)\vtkfreetype-8.0.lib
+Path Of (VTK\lib)\vtkGeovisCore-8.0.lib
+Path Of (VTK\lib)\vtkgl2ps-8.0.lib
+Path Of (VTK\lib)\vtkglew-8.0.lib
+Path Of (VTK\lib)\vtkhdf5-8.0.lib
+Path Of (VTK\lib)\vtkhdf5_hl-8.0.lib
+Path Of (VTK\lib)\vtkImagingColor-8.0.lib
+Path Of (VTK\lib)\vtkImagingCore-8.0.lib
+Path Of (VTK\lib)\vtkImagingFourier-8.0.lib
+Path Of (VTK\lib)\vtkImagingGeneral-8.0.lib
+Path Of (VTK\lib)\vtkImagingHybrid-8.0.lib
+Path Of (VTK\lib)\vtkImagingMath-8.0.lib
+Path Of (VTK\lib)\vtkImagingMorphological-8.0.lib
+Path Of (VTK\lib)\vtkImagingSources-8.0.lib
+Path Of (VTK\lib)\vtkImagingStatistics-8.0.lib
+Path Of (VTK\lib)\vtkImagingStencil-8.0.lib
+Path Of (VTK\lib)\vtkInfovisCore-8.0.lib
+Path Of (VTK\lib)\vtkInfovisLayout-8.0.lib
+Path Of (VTK\lib)\vtkInteractionImage-8.0.lib
+Path Of (VTK\lib)\vtkInteractionStyle-8.0.lib
+Path Of (VTK\lib)\vtkInteractionWidgets-8.0.lib
+Path Of (VTK\lib)\vtkIOAMR-8.0.lib
+Path Of (VTK\lib)\vtkIOCore-8.0.lib
+Path Of (VTK\lib)\vtkIOEnSight-8.0.lib
+Path Of (VTK\lib)\vtkIOExodus-8.0.lib
+Path Of (VTK\lib)\vtkIOExport-8.0.lib
+Path Of (VTK\lib)\vtkIOExportOpenGL2-8.0.lib
+Path Of (VTK\lib)\vtkIOGeometry-8.0.lib
+Path Of (VTK\lib)\vtkIOImage-8.0.lib
+Path Of (VTK\lib)\vtkIOImport-8.0.lib
+Path Of (VTK\lib)\vtkIOInfovis-8.0.lib
+Path Of (VTK\lib)\vtkIOLegacy-8.0.lib
+Path Of (VTK\lib)\vtkIOLSDyna-8.0.lib
+Path Of (VTK\lib)\vtkIOMINC-8.0.lib
+Path Of (VTK\lib)\vtkIOMovie-8.0.lib
+Path Of (VTK\lib)\vtkIONetCDF-8.0.lib
+Path Of (VTK\lib)\vtkIOParallel-8.0.lib
+Path Of (VTK\lib)\vtkIOParallelXML-8.0.lib
+Path Of (VTK\lib)\vtkIOPLY-8.0.lib
+Path Of (VTK\lib)\vtkIOSQL-8.0.lib
+Path Of (VTK\lib)\vtkIOTecplotTable-8.0.lib
+Path Of (VTK\lib)\vtkIOVideo-8.0.lib
+Path Of (VTK\lib)\vtkIOXML-8.0.lib
+Path Of (VTK\lib)\vtkIOXMLParser-8.0.lib
+Path Of (VTK\lib)\vtkjpeg-8.0.lib
+Path Of (VTK\lib)\vtkjsoncpp-8.0.lib
+Path Of (VTK\lib)\vtklibharu-8.0.lib
+Path Of (VTK\lib)\vtklibxml2-8.0.lib
+Path Of (VTK\lib)\vtklz4-8.0.lib
+Path Of (VTK\lib)\vtkmetaio-8.0.lib
+Path Of (VTK\lib)\vtkNetCDF-8.0.lib
+Path Of (VTK\lib)\vtknetcdf_c++.lib
+Path Of (VTK\lib)\vtkoggtheora-8.0.lib
+Path Of (VTK\lib)\vtkParallelCore-8.0.lib
+Path Of (VTK\lib)\vtkpng-8.0.lib
+Path Of (VTK\lib)\vtkproj4-8.0.lib
+Path Of (VTK\lib)\vtkRenderingAnnotation-8.0.lib
+Path Of (VTK\lib)\vtkRenderingContext2D-8.0.lib
+Path Of (VTK\lib)\vtkRenderingContextOpenGL2-8.0.lib
+Path Of (VTK\lib)\vtkRenderingCore-8.0.lib
+Path Of (VTK\lib)\vtkRenderingFreeType-8.0.lib
+Path Of (VTK\lib)\vtkRenderingGL2PSOpenGL2-8.0.lib
+Path Of (VTK\lib)\vtkRenderingImage-8.0.lib
+Path Of (VTK\lib)\vtkRenderingLabel-8.0.lib
+Path Of (VTK\lib)\vtkRenderingLOD-8.0.lib
+Path Of (VTK\lib)\vtkRenderingOpenGL2-8.0.lib
+Path Of (VTK\lib)\vtkRenderingVolume-8.0.lib
+Path Of (VTK\lib)\vtkRenderingVolumeOpenGL2-8.0.lib
+Path Of (VTK\lib)\vtksqlite-8.0.lib
+Path Of (VTK\lib)\vtksys-8.0.lib
+Path Of (VTK\lib)\vtktiff-8.0.lib
+Path Of (VTK\lib)\vtkverdict-8.0.lib
+Path Of (VTK\lib)\vtkViewsContext2D-8.0.lib
+Path Of (VTK\lib)\vtkViewsCore-8.0.lib
+Path Of (VTK\lib)\vtkViewsInfovis-8.0.lib
+Path Of (VTK\lib)\vtkzlib-8.0.lib

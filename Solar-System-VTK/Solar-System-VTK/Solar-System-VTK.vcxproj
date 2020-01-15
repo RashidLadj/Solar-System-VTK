@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{E3DE3426-FA8A-4143-8C2F-825DCF1FF478}</ProjectGuid>
+    <RootNamespace>SolarSystemVTK</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\ProgramInstallation\VTK\include\vtk-8.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>C:\ProgramInstallation\VTK\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;C:\ProgramInstallation\VTK\lib\vtkalglib-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkChartsCore-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkCommonColor-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkCommonComputationalGeometry-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkCommonCore-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkCommonDataModel-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkCommonExecutionModel-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkCommonMath-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkCommonMisc-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkCommonSystem-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkCommonTransforms-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkDICOMParser-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkDomainsChemistry-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkDomainsChemistryOpenGL2-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkexoIIc-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkexpat-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersAMR-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersCore-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersExtraction-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersFlowPaths-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersGeneral-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersGeneric-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersGeometry-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersHybrid-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersHyperTree-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersImaging-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersModeling-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersParallel-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersParallelImaging-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersPoints-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersProgrammable-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersSelection-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersSMP-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersSources-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersStatistics-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersTexture-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersTopology-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersVerdict-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkfreetype-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkGeovisCore-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkgl2ps-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkglew-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkhdf5-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkhdf5_hl-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkImagingColor-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkImagingCore-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkImagingFourier-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkImagingGeneral-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkImagingHybrid-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkImagingMath-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkImagingMorphological-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkImagingSources-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkImagingStatistics-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkImagingStencil-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkInfovisCore-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkInfovisLayout-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkInteractionImage-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkInteractionStyle-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkInteractionWidgets-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOAMR-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOCore-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOEnSight-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOExodus-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOExport-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOExportOpenGL2-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOGeometry-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOImage-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOImport-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOInfovis-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOLegacy-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOLSDyna-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOMINC-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOMovie-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIONetCDF-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOParallel-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOParallelXML-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOPLY-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOSQL-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOTecplotTable-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOVideo-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOXML-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOXMLParser-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkjpeg-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkjsoncpp-8.0.lib;C:\ProgramInstallation\VTK\lib\vtklibharu-8.0.lib;C:\ProgramInstallation\VTK\lib\vtklibxml2-8.0.lib;C:\ProgramInstallation\VTK\lib\vtklz4-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkmetaio-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkNetCDF-8.0.lib;C:\ProgramInstallation\VTK\lib\vtknetcdf_c++.lib;C:\ProgramInstallation\VTK\lib\vtkoggtheora-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkParallelCore-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkpng-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkproj4-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkRenderingAnnotation-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkRenderingContext2D-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkRenderingContextOpenGL2-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkRenderingCore-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkRenderingFreeType-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkRenderingGL2PSOpenGL2-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkRenderingImage-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkRenderingLabel-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkRenderingLOD-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkRenderingOpenGL2-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkRenderingVolume-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkRenderingVolumeOpenGL2-8.0.lib;C:\ProgramInstallation\VTK\lib\vtksqlite-8.0.lib;C:\ProgramInstallation\VTK\lib\vtksys-8.0.lib;C:\ProgramInstallation\VTK\lib\vtktiff-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkverdict-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkViewsContext2D-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkViewsCore-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkViewsInfovis-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkzlib-8.0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\ProgramInstallation\VTK\include\vtk-8.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\ProgramInstallation\VTK\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;C:\ProgramInstallation\VTK\lib\vtkalglib-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkChartsCore-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkCommonColor-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkCommonComputationalGeometry-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkCommonCore-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkCommonDataModel-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkCommonExecutionModel-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkCommonMath-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkCommonMisc-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkCommonSystem-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkCommonTransforms-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkDICOMParser-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkDomainsChemistry-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkDomainsChemistryOpenGL2-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkexoIIc-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkexpat-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersAMR-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersCore-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersExtraction-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersFlowPaths-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersGeneral-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersGeneric-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersGeometry-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersHybrid-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersHyperTree-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersImaging-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersModeling-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersParallel-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersParallelImaging-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersPoints-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersProgrammable-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersSelection-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersSMP-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersSources-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersStatistics-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersTexture-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersTopology-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkFiltersVerdict-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkfreetype-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkGeovisCore-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkgl2ps-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkglew-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkhdf5-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkhdf5_hl-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkImagingColor-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkImagingCore-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkImagingFourier-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkImagingGeneral-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkImagingHybrid-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkImagingMath-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkImagingMorphological-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkImagingSources-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkImagingStatistics-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkImagingStencil-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkInfovisCore-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkInfovisLayout-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkInteractionImage-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkInteractionStyle-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkInteractionWidgets-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOAMR-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOCore-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOEnSight-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOExodus-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOExport-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOExportOpenGL2-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOGeometry-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOImage-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOImport-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOInfovis-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOLegacy-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOLSDyna-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOMINC-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOMovie-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIONetCDF-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOParallel-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOParallelXML-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOPLY-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOSQL-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOTecplotTable-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOVideo-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOXML-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkIOXMLParser-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkjpeg-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkjsoncpp-8.0.lib;C:\ProgramInstallation\VTK\lib\vtklibharu-8.0.lib;C:\ProgramInstallation\VTK\lib\vtklibxml2-8.0.lib;C:\ProgramInstallation\VTK\lib\vtklz4-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkmetaio-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkNetCDF-8.0.lib;C:\ProgramInstallation\VTK\lib\vtknetcdf_c++.lib;C:\ProgramInstallation\VTK\lib\vtkoggtheora-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkParallelCore-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkpng-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkproj4-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkRenderingAnnotation-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkRenderingContext2D-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkRenderingContextOpenGL2-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkRenderingCore-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkRenderingFreeType-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkRenderingGL2PSOpenGL2-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkRenderingImage-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkRenderingLabel-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkRenderingLOD-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkRenderingOpenGL2-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkRenderingVolume-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkRenderingVolumeOpenGL2-8.0.lib;C:\ProgramInstallation\VTK\lib\vtksqlite-8.0.lib;C:\ProgramInstallation\VTK\lib\vtksys-8.0.lib;C:\ProgramInstallation\VTK\lib\vtktiff-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkverdict-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkViewsContext2D-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkViewsCore-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkViewsInfovis-8.0.lib;C:\ProgramInstallation\VTK\lib\vtkzlib-8.0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
